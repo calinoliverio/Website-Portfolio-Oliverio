@@ -1,20 +1,40 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="CalinOliverio">
-  <meta name="designer" content="Calin Oliverio">
-  <meta name="description" content="A collection of user experience and IT projects by Calin Oliverio.">
-  <title>Style Sheet</title>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
 
 /*
 Colors used:
+Background Color (White): #FFFFFF;
 Primary Color (Pink): #F0535A;
-Secondary Color (Black): #343434;
+Text Color (Black): #474747;
+Text Highlight Color (Lt Pink) #F0535A33;
+
 */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 300; /* Sets the font weight to 300 */
+    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+    color: #474747;
+  }
+
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 600;
+  }
